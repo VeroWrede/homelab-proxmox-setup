@@ -13,30 +13,48 @@
 - Network device names
 
 Project Overview  
-Professional homelab setup implementing enterprise virtualization technologies using Proxmox VE on Dell OptiPlex hardware with segregated networking infrastructure. 
+Professional homelab setup implementing enterprise virtualization technologies using Proxmox VE on Dell OptiPlex hardware. Project structured in phases to handle real-world hardware constraints and demonstrate adaptive project management.
 
 Technologies and Skills (demonstrated?) ⏳ 
 - Virtualisation : Proxmox VE hypervisor deployment
-- Linux: custom installation, configuration and administration
-- Network Architecture: VLAN segmentation, router configuration, network isolation 
-- Hardware: enterprise hardware repurposing and management
+- Linux Administration: custom installation, configuration and administration
+- Network Troubleshooting: Hardware failure diagnosis and resolution
+- Project Management: Adaptive planning and phased implementation
+- Hardware Management: enterprise hardware repurposing and management
 - Documentation: technical project documentation and architecture design
 - Version Control: Git based project management
+- Problem Solving: Real-world IT infrastructure challenges
 
 Hardware Components
 - Primary Host: Dell OptiPlex 
-- Network: Netgear Wireless Dual Band Router
+- Network: Direct connection to main router
+- Future Enhancement: NETGEAR N600 Router (pending hardware repair/replacement)
+
+Project Phases
+
+Phase 1: Core Proxmox Setup (Current)
+1. Project Setup & Documentation Structure
+2. Hardware Assessment & Troubleshooting
+3. Linux Base System Installation
+4. Proxmox VE Hypervisor Deployment
+5. Virtual Machine Environment Setup
+
+Phase 2: Network Segregation (Future)
+1. Secondary router integration
+2. VLAN configuration
+3. Network isolation implementation
 
 Network Architecture  
-Internet -> Main Router -> Secondary Router (Netgear) -> Dell OptiPlex hosting Proxmox
+Internet -> Main Router -> Dell OptiPlex hosting Proxmox
 -- Detailed network diagram available in /docs/architecture-diagram.png ⏳
 
 Skills Applied ⏳ 
 - Linux system administration
-- Network configuration and troubelshooting
+- Network troubelshooting and diagnostics
+- Hardware failure analysis
 - Virtualisation platform management 
 - Infrastructure documentation 
-- Technical project planning
+- Adaptive project management
 
 Key Learning Outcomes ⏳
 
