@@ -15,6 +15,11 @@
 Project Overview  
 Professional homelab setup implementing enterprise virtualization technologies using Proxmox VE on Dell OptiPlex hardware. Project structured in phases to handle real-world hardware constraints and demonstrate adaptive project management.
 
+Current Status
+Found pre-existing Proxmox VE installation on salvaged drive
+Next: Network IP address reconfiguration for current subnet
+Achievements so far: Successful restructuring of plan and hardware integration despite multiple missing or broken components
+
 Technologies and Skills (demonstrated?) ⏳ 
 - Virtualisation : Proxmox VE hypervisor deployment
 - Linux Administration: custom installation, configuration and administration
@@ -32,29 +37,25 @@ Hardware Components
 
 Project Phases
 
-Phase 1: Core Proxmox Setup (Current)
+Phase 1: Hardware Integration and Discovery (Done)
 1. Project Setup & Documentation Structure
-2. Hardware Assessment & Troubleshooting
-3. Linux Base System Installation
-4. Proxmox VE Hypervisor Deployment
-5. Virtual Machine Environment Setup
+2. Network infrastructure Assessment & Troubleshooting
+3. Hardware Discovery & Component Sourcing
+4. Linux Base System Installation
+4.1 Bootable Media Creation & BIOS Configuration
+5. Discovered existing Proxmox installation
+6. Virtual Machine Environment Setup
+7. IP Address Management 
 
-Phase 2: Network Segregation (Future)
-1. Secondary router integration
-2. VLAN configuration
-3. Network isolation implementation
+Phase 2: Proxmox Environment Configuration (Current)
+1. Network reconfiguration for existing installation
+2. Establish Remote management access
+3. Verify VM envirnoment setup
 
-Network Architecture  
-Internet -> Main Router -> Dell OptiPlex hosting Proxmox
--- Detailed network diagram available in /docs/architecture-diagram.png ⏳
+Phase 3: Network Segregation (Future)
+1. Add secondary router
+2. Configure VLAN
+3. Setup network isolation
 
-Skills Applied ⏳ 
-- Linux system administration
-- Network troubelshooting and diagnostics
-- Hardware failure analysis
-- Virtualisation platform management 
-- Infrastructure documentation 
-- Adaptive project management
 
-Key Learning Outcomes ⏳
 
